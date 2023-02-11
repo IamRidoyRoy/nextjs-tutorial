@@ -52,7 +52,7 @@ export default function Home() {
       </main>
       <div>
 
-        <Link href="posts/first-post">Go to the post page!</Link>
+        <Link href="posts/first-post">Click Here to post page!</Link>
       </div>
       <footer>
         <a
