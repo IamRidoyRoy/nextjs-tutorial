@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -11,13 +12,14 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Learn <a href="https://nextjs.org">Next.js! Mr. Ridoy</a>
+          Learn <Link href="https://nextjs.org">Next.js! Mr. Ridoy</Link>
         </h1>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
 
+        <p>This is the most important goal that i should achieve!</p>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
@@ -48,7 +50,10 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <div>
 
+        <Link href="posts/first-post">Go to the post page!</Link>
+      </div>
       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
